@@ -14,10 +14,13 @@ apt searchで出てくるDockerやDocker.ioは旧バージョンの模様。
 方法は4つあるらしいが、今回はaptレポジトリからインストールする方法を取る。更新が容易らしい。
 
 ## 0,旧バージョンを削除する。
+もし旧バージョンがあった場合、いらないなら削除してしまう。  
+その際、アンインストールするだけでは削除されないものがあるので、rmで削除する。  
+※要るなら削除しないこと！
 ```Bash
 sudo apt remove docker docker-engine docker.io containerd runc
 sudo rm -rf /var/lib/docker
-sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
 ```
 ## 1,Dockerレポジトリをセットアップする。
 新しいコンピュータにDockerを入れる前に、まずDockerレポジトリをセットアップしなければならないらしい。
