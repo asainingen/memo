@@ -1,6 +1,6 @@
 # memo
-Memorandum as a IT loving student majoring literature.  
-If you open files randomly, then this become memorandam.
+Memorandum as an IT loving student majoring in literature.
+If you open files randomly, then they become memorandam. 
 
 # メモ
 IT的な話が好きではあるが詳しくはない文系学生が、色々試してみた備忘録的な何かです。  
